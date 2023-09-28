@@ -1,2 +1,7 @@
 # Calculadora
  Calculadora HTML + CSS + JavaScript
+Que hace document.querySelector(".display"); ? Se trata de una instrucción de JavaScript para seleccionar y obtener dentro de cierto documento especificado, el primer elmeento que se encuentre dentro de la clase proporcionada dentro del paréntesis
+Que hace const buttons = document.querySelectorAll("button"); ? Podría decirse que son 2 partes en esta instrucción, puesto que, lo que tenemos despues del "=" se trata de una selección de todos aquellos elementos que coincidan con el tipo de elemento especificado. y esa colección la guardaremos en una variable, variable que se llamará como especifiquemos antes del "="
+Que hace buttonText = button.textContent; ? De igual forma tenemos 2 partes en esta instrucción, ya que button.textContent se refiere a obtener el contenido de cierto elemento y despues se almacenará en una variable
+Que hace y como funciona buttons.forEach((button) => { ...} ? Es una instrucción con la que se hace un recorrido a través de una variable, la cual idealmente debería ser una coleccion obtenida con un querySelectorAll, cada vez que se encuentre cierto elemento (especificado entre parentesis) dentro de esa colección, se ejecutará un bloque de codigo, lo que especifiquemos entre llaves.
+Que hace y como funciona button.addEventListener("click", () => { } ) Se utiliza para que, cada que suceda un tipo de evento especifico en un elemento HTML tambien especificado, se ejecute un bloque de codigo que querramos, el cual pondremos entre llaves.
